@@ -1,0 +1,142 @@
+html,
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.navbar-default {
+    background-color: #ffffff00;
+    border-color: #ffffff00;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+
+.logoimg {
+    height: 30px;
+    width: 26px;
+    float: left;
+    margin-top: -6px;
+    margin-right: 6px;
+}
+
+.bg {
+    text-align: center;
+    min-height: 100vh;
+    background-image: url(../images/pattern.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 2em;
+}
+
+.bg .imgx {
+    margin-top: 100px;
+}
+
+
+.bg .px {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.bg .pxx {
+    letter-spacing: 2px;
+}
+
+.bg .pxxx {
+    font-size: 13px;
+    margin-top: 30px;
+    color: #484848;
+}
+
+.game_list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.game_list .list {
+    border: 1px solid #d6d6d6;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.about .list {
+    border: 1px solid #d6d6d6;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.footer {
+    background: #333;
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 13px;
+}
+
+.img6 {
+    height: 200px;
+}
+
+.img7 {
+    width: 100%;
+    height: 100%;
+}
+
+
+.game_listx {
+    height: 210px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 17px rgb(74, 73, 73);
+    border-radius: 20px;
+}
+
+.game_listx img {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.imgdivx {
+    background: #35403070;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 210px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    width: calc(100% - 30px);
+}
+
+.imgdivx:hover {
+    background: #151414ad;
+}
+
+@media screen and (max-width: 800px) {
+    .imgx {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .bg {
+        min-height: inherit;
+    }
+
+    .game_divx{
+        margin-top: 20px;
+    }
+}
