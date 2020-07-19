@@ -1,0 +1,75 @@
+﻿/* CSS written by MaoRX.cn */
+body {
+	background-color:rgb(20,20,20);
+	max-width:100%; 
+	margin:auto; 
+	overflow-x:hidden;
+	font-family: "Microsoft Yahei Light","Microsoft Yahei";
+}
+
+div {
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+}
+.navbar {
+	position: absolute;
+	top:0px;
+	width:100%;
+	height:80px;
+	text-align: center;
+	font-size: 16px;
+	background-color:transparent;
+	overflow:hidden;
+}
+.navlogo {
+	position:absolute;
+	left:50%;
+	margin-left:-500px;
+	width:250px;
+	height:80px;
+	background-repeat:no-repeat;
+	background-image:url(../images/ssslogo_navbar.png)
+}
+.navbox {
+	position:absolute;
+	left:50%;
+	margin-left:-250px;
+	width:510px;
+	height:80px;
+	margin-top:30px;
+}
+.nav {
+	text-decoration:none;
+	color:rgb(255,255,255);
+	background-color:transparent;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:30px;
+	padding-right:30px;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+a.nav:link,a.nav:visted {color:rgb(255,255,255);background-color:transparent;}
+a.nav:hover {color:rgb(0,160,255);background-color:rgba(255,255,255,0.1);}
+a.nav:active {color:rgb(0,160,255);background-color:rgba(255,255,255,0.2);}
+.link {
+	text-decoration:none;
+	color:rgba(255,255,255,0.6);
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+}
+a.link:link,a.link:visted {color:rgba(255,255,255,0.6);}
+a.link:hover {color:rgba(0,160,233,1.0);}
+a.link:active {color:rgba(0,160,233,1.0);}

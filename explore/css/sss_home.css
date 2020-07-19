@@ -1,0 +1,226 @@
+﻿/* CSS written by MaoRX.cn */
+.topbanner {	
+	text-align:left;
+}
+.bgbox {
+	z-index: -1;
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:100%;
+	background-repeat:no-repeat;
+	background-position:right center;
+	background-attachment:fixed;
+	background-image:url(../images/sss_topbanner.jpg);
+	overflow: hidden;
+}
+.toptitle {
+	position:absolute;
+	top:200px;
+	width:1000;
+	left:50%;
+	margin-left:-500px;
+}
+p.title {
+	font-size: 72px;
+	color:rgba(255,255,255,1.0);
+	display:inline;
+}
+p.tag {
+	font-size: 20px;
+	color:rgba(255,255,255,0.6);
+	display:inline;
+}
+.btn_download {
+	text-decoration:none;
+	color:rgb(255,255,255);
+	background-color:transparent;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:50px;
+	padding-right:50px;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+	-o-transition: all 0.25s;
+	-ms-transition: all 0.25s;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid rgba(255,255,255,0.6);
+}
+a.btn_download:link,a.btn_download:visted {color:rgb(255,255,255);background-color:transparent;border-color:rgba(255,255,255,0.6);}
+a.btn_download:hover {color:rgb(0,160,255);background-color:transparent;border-color:rgba(0,160,255,1.0);}
+a.btn_download:active {color:rgb(0,160,255);background-color:rgba(255,255,255,0.1);border-color:rgba(0,160,255,1.0);}
+.godown {
+	position:absolute;
+	top:100%;
+	margin-top:-100px;
+	left:50%;
+	margin-left:-500px;
+	font-size: 14px;
+	color:rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.godown:hover {color:rgba(0,160,255,1.0);}
+.contentbox {
+	position:absolute;
+	width:100%;
+	height:400px;
+	text-align:center;
+}
+.title1 {
+	position:absolute;
+	top:50px;
+	width:100%;
+	font-size:32px;
+	color:rgba(255,255,255,0.9);
+}
+.introbox {
+	position:absolute;
+	top:100px;
+	left:50%;
+	margin-left:-450px;
+	width:900px;
+	text-align:center;
+}
+.introboxsmall {
+	position:absolute;
+	top:0px;
+	width:300px;
+	height:350px;
+}
+#ibs_1 {
+	left: 0px;
+}
+#ibs_2 {
+	left: 50%;
+	margin-left: -150px;
+}
+#ibs_3 {
+	left: 50%;
+	margin-left: 150px;
+}
+.introtxt {
+	position:absolute;
+	top:180px;
+	width:100%;
+	font-size:28px;
+	text-align:center;
+	color:rgba(0,160,233,1.0);
+}
+.introtxtsmall {
+	position:absolute;
+	top:230px;
+	width:100%;
+	font-size:14px;
+	text-align:center;
+	color:rgba(255,255,255,0.5);
+}
+.intropic1 {
+	position:absolute;
+	top:0px;
+	left:50%;
+	margin-left:-100px;
+	width:200px;
+	height:200px;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#ctb_2 {
+	margin-top: 400px;
+}
+.intropic_left {
+	position:absolute;
+	top:10px;
+	left:50%;
+	margin-left:-500px;
+	width:600px;
+	height:380px;
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image:url(../images/sss_intro4.png);
+}
+.introtxt_right {
+	position:absolute;
+	top:180px;
+	left:50%;
+	margin-left:100px;
+	font-size:28px;
+	text-align:center;
+	color:rgba(0,160,233,1.0);
+}
+.introtxtsmall_right {
+	position:absolute;
+	top:220px;
+	left:50%;
+	margin-left:100px;
+	font-size:14px;
+	text-align:center;
+	color:rgba(255,255,255,0.5);
+}
+.footerbox {
+	position:absolute;
+	top:100%;
+	margin-top:800px;
+	width:100%;
+	height:200px;
+	text-align:center;
+}
+.footertxt {
+	position:absolute;
+	top:30px;
+	width:100%;
+	font-size:16px;
+	text-align:center;
+	color:rgba(255,255,255,0.8);
+}
+.footerlinkbox {
+	position:absolute;
+	top:60px;
+	width:400px;
+	left:50%;
+	margin-left:-200px;
+	font-size:14px;
+	text-align:center;
+	color:rgba(255,255,255,0.6);
+}
+.copyrighttxt {
+	position:absolute;
+	top:120px;
+	width:100%;
+	font-size:12px;
+	text-align:center;
+	color:rgba(255,255,255,0.5);
+}
+
+@media screen and (max-width:600px){  
+   	.bgbox {background-size: auto 100%; -webkit-filter: brightness(50%); filter: brightness(50%);}
+   	.toptitle {width: 100%; margin-left: -50%; padding-left: 50px;}
+   	.navlogo {display: none;}
+   	.navbox {font-size: small;}
+   	p.title {font-size: 36px;}
+   	p.tag {font-size: medium;}
+   	a.btn_download {font-size: small;}
+   	.godown {margin-left: -40%;margin-top: -50px;}
+   	.title1 {font-size: medium;}
+   	#ctb_1 {height: 670px;}
+   	.introbox {top: 70px; width: 100%; margin-left: -50%;}
+   	.introboxsmall {width: 100%; float: top;}
+   	.intropic1 {width: 150px; height: 150px; margin-left: -75px; background-size: cover;}
+   	.introtxt {top: 130px;font-size: medium;}
+   	.introtxtsmall {top: 160px; font-size: small;}
+   	#ibs_2 {left: 0px; margin-left: 0px; top:180px;}
+   	#ibs_3 {left: 0px; margin-left: 0px; top:370px;}
+   	#ctb_2 {margin-top: 670px; height: 335px;}
+   	.intropic_left {margin-left: -50%; width: 100%; height: 63%;}
+    .introtxt_right {margin-left: -50%; width: 100%; font-size: medium; top: 250px; }
+    .introtxtsmall_right {margin-left: -50%; width: 100%; font-size: small; top: 280px;}
+    .footerbox {margin-top: 1020px;}
+    .footertxt, .footerlinkbox, .copyrighttxt {font-size: small;}
+}
+
+@media screen and (min-width:600px) and (max-width:900px){ 
+
+}
